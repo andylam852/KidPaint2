@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="100.0" prefWidth="300.0" spacing="10" xmlns="http://javafx.com/javafx/18"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="nameField" alignment="CENTER" maxWidth="200" minWidth="200" promptText="Input Your Name Here">
+        <font>
+            <Font size="17.0"/>
+        </font>
+    </TextField>
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="goButton" text="GO!">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Button>
+        <Button fx:id="cancelButton" text="Cancel">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Button>
+    </HBox>
+</VBox>
